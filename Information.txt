@@ -1,89 +1,140 @@
-Full Name → My Name is Ridwan Tusmiah. This website is for my company TusmiTech
+📌 TusmiTech – Portfolio Website Content
+Hero / Intro Section
 
-Title/Profession → Software Engineer & Content Creator
-Short Professional Auto generate from the data you have about me. 
+Name / Brand: TusmiTech
+
+Founder: Ridwan Tusmiah
+
+Title: Software Engineer & Content Creator
+
+Short Intro:
+“Building smart, scalable software and creating compelling digital content. At TusmiTech, we combine technology with creativity to help businesses grow, connect, and stand out in the digital age.”
+
+About Section
+
+Heading: About TusmiTech
+
+Story:
+TusmiTech, founded by Ridwan Tusmiah, is a Chattogram-based technology and creative solutions company. We specialize in delivering innovative digital products, scalable software, and powerful media content. With expertise spanning software engineering, photography, cinematography, and digital marketing, TusmiTech bridges the gap between technology and creativity.
+
+Our mission is to empower businesses and individuals by providing solutions that are not only functional but also visually captivating and eco-conscious. From custom web applications and e-commerce platforms to cinematic storytelling and social media growth, TusmiTech is your one-stop partner for digital transformation.
+
+Services Section
+Web Development
+
+Smart, Scalable & Built for Business Growth
+
+Custom Web Applications – Laravel (backend) + Vue.js (frontend).
+
+POS Development – inventory, billing, multi-branch, analytics.
+
+E-Commerce Sites – fast, mobile-friendly, secure stores.
+
+SaaS Development – subscription-based, cloud apps.
+
+PWAs – app-like websites that work offline.
+
+Maintenance & Optimization – updates, speed, SEO.
+
+Media & Creative Services
+
+Professional Photography – business, lifestyle, product.
+
+Cinematography & Video Production – cinematic ads, events, weddings.
+
+Video Editing & Post-Production – color grading, motion graphics, storytelling.
+
+Social Media Content Creation – reels, shorts, visuals.
+
+Page/Channel Management – Facebook, YouTube optimization & growth.
+
+Digital Marketing
+
+Facebook & Instagram Ads
+
+Google Ads (Search, Display, Video)
+
+YouTube Promotions
+
+Lead Generation & Retargeting
+
+Performance Tracking & Reports
+
+Event Coverage
+
+Weddings, corporate, military & personal events.
+
+Multi-camera setups, live streaming, HD final edits.
+
+Branding & Creative Direction
+
+Visual branding (logos, palettes, brand kits).
+
+Photo & video campaigns that reflect brand identity.
+
+Strategy to stand out in competitive markets.
+
+Skillset
+
+Web Development: 95%
+
+Database Design: 95%
+
+Content Creation: 94%
+
+Photography: 96%
 
 Portfolio Projects
 
-At least 6–8 projects with:
+Artillery Museum Website – Official web project for Bangladesh Army’s Artillery Center, showcasing history and contributions.
 
-Project name: Auto generate from the data you have about me. Add at least 5-6 project
+Military Documentary Film – Cinematic storytelling production highlighting the Artillery Center & School’s heritage.
 
-About You : Auto generate from the data you have about me. 
+Custom POS System – Retail POS with inventory management, billing, and analytics.
 
-Services you provide → Web Development
-Smart, Scalable & Built for Business Growth
-Custom Web Applications
-We create powerful, tailor-made web applications using Laravel (backend) and Vue.js (frontend). Whether it’s a management dashboard, online booking system, CRM, or a custom solution for your business, we build secure, fast, and scalable apps that fit your exact needs — no unnecessary features, just what works for you.
-POS (Point of Sale) Software Development
-Run your business smoothly with a fully custom POS system.
-We develop cloud-based POS software that helps you manage sales, track inventory, handle billing, and generate real-time reports — all from one intuitive dashboard. Our solutions are ideal for retail stores, cafes, restaurants, and service providers.
-Features include:
-•	Product & inventory management
-•	Customer tracking & billing
-•	Barcode scanning support
-•	Multi-user & multi-branch systems
-•	Real-time sales reports & analytics
-Your POS, your way — no monthly subscriptions, no limitations.
-E-Commerce Website Development
-We build beautiful, user-friendly online stores that help you sell more. From product listings and secure payments to customer accounts and order tracking — your e-commerce site will be fast, mobile-optimized, and easy to manage. Perfect for any retail, fashion, or handmade product business looking to grow online.
-SaaS (Software as a Service) Development
-Turn your idea into a full-featured web application that users can access anytime, anywhere. We handle everything — from user registration, subscriptions, and payment integration to backend logic and responsive design. Ideal for startups and digital product creators.
-Progressive Web Apps (PWAs)
-Combine the best of web and mobile with a Progressive Web App. These apps work offline, load fast, and feel like native mobile apps — without needing to go through app stores. Great for users who value speed and convenience on any device.
-Website Maintenance & Optimization
-Websites need care to perform well. We offer regular updates, performance optimization, speed tuning, bug fixes, and SEO improvements to make sure your site is always running at its best and ranking well on search engines.
-Media & Creative Services
-Content That Connects. Visuals That Sell.
-Professional Photography
-From business profiles and product photos to lifestyle and event shoots, we deliver high-quality, sharp images that help your brand stand out. Our team uses advanced lighting and equipment to capture moments with clarity and impact.
-Cinematography & Video Production
-We create cinematic videos for weddings, events, advertisements, and brand stories. With 4K/6K cameras, drones, stabilizers, and creative direction — we bring emotion, motion, and professionalism into every frame.
-Video Editing & Post-Production
-We transform raw footage into stunning final products. Services include professional editing, color grading, transitions, background music, voice-overs, and motion graphics. Perfect for YouTube content, commercials, wedding films, or promotional reels.
-Social Media Content Creation
-We produce content that grabs attention and grows engagement on platforms like Instagram, TikTok, Facebook, and YouTube. From reels and shorts to stories and banners, we help you build a consistent and appealing brand presence online.
-Facebook Page & YouTube Channel Management
-Let us take care of your online presence while you focus on your business.
-We handle:
-•	Content planning and posting
-•	Graphic/video uploads
-•	Community engagement
-•	Page/channel optimization
-•	Growth strategy
-Perfect for businesses, influencers, and content creators looking for consistent growth and a professional online image.
-Digital Marketing & Online Promotion
-We help you reach the right audience with targeted digital marketing strategies.
-Our services include:
-•	Facebook & Instagram ads
-•	Google Ads (Search, Display, and Video)
-•	YouTube promotions
-•	Retargeting & lead generation
-•	Performance tracking and reports
-Whether you're launching a new product or building awareness, we ensure your brand gets seen by the people who matter.
-Event Coverage (Photo + Video)
-Full coverage of weddings, corporate events, parties, and more. We offer multiple camera setups, live coverage, and quick post-event edits — so you can relive your moments in high definition.
-Branding & Creative Direction
-We help shape your brand’s identity through design, media, and storytelling.
-This includes:
-•	Visual branding (logos, color palettes, brand style)
-•	Photo and video content that reflects your brand message
-•	Strategy and creative guidance to stand out in your industry
+E-Commerce Platform – Fashion & lifestyle online store with payment gateway and order tracking.
 
+Tusmi Gallery (Vue.js App) – Interactive album-based photo gallery with slider integration.
 
+Branding & Social Campaigns – Digital branding and ad campaigns for startups and local businesses.
 
-Skillset with % → (e.g., Web development 95%, database design 95%, Content Creation 90%, Photography 85%) Auto generate from the data you have about me. keep the % from 94=96
+Testimonials
 
-Testimonials → Blog/Updates → Auto generate: Use bangladesi client name and images
+Md. Arif Hossain – Chattogram Retailer
+“TusmiTech built a POS system for my business. It’s fast, reliable, and tailored exactly for our daily operations. Highly recommended.”
 
-Blog/Updates → Auto generate from the data you have about me if not available add demo topic from web development, software development, content creation, influencer etc
+Farzana Rahman – Fashion Entrepreneur
+“My e-commerce website by TusmiTech helped me expand my clothing business nationwide. Sales and customer engagement doubled within months.”
 
-Contact Info:
+Capt. Shahriar Alam – Bangladesh Army (Artillery Center)
+“Professional, creative, and highly dedicated. The documentary project exceeded expectations and captured our history with cinematic brilliance.”
 
-Phone number : +8801858595859
+Blog / Updates
 
-Email : ridtusmiah.dev@gmail.com
+“Why Every Business Needs a Custom Web App in 2025” – Insights on SaaS, POS, and tailored solutions.
+
+“5 Tips for Creating Engaging Social Media Content” – Content creation strategies.
+
+“Eco-Friendly Construction: The Future of Real Estate in Bangladesh” – Sustainable development trends.
+
+“From Camera to Screen: The Art of Cinematic Storytelling” – Behind the scenes of filmmaking.
+
+“How SEO and Paid Ads Work Together for Growth” – Digital marketing explained.
+
+Contact Info
+
+Phone: +8801858595859
+
+Email: ridtusmiah.dev@gmail.com
 
 Location: Chattogram, Bangladesh
 
-Social links: Auto generate from the data you have about me if not available use demo links.
+Social Links:
+
+Facebook → https://facebook.com/tusmitech
+
+Instagram → https://instagram.com/tusmitech
+
+YouTube → https://youtube.com/@tusmitech
+
+LinkedIn → https://linkedin.com/company/tusmitech
