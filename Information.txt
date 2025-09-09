@@ -1,0 +1,89 @@
+Full Name → My Name is Ridwan Tusmiah. This website is for my company TusmiTech
+
+Title/Profession → Software Engineer & Content Creator
+Short Professional Auto generate from the data you have about me. 
+
+Portfolio Projects
+
+At least 6–8 projects with:
+
+Project name: Auto generate from the data you have about me. Add at least 5-6 project
+
+About You : Auto generate from the data you have about me. 
+
+Services you provide → Web Development
+Smart, Scalable & Built for Business Growth
+Custom Web Applications
+We create powerful, tailor-made web applications using Laravel (backend) and Vue.js (frontend). Whether it’s a management dashboard, online booking system, CRM, or a custom solution for your business, we build secure, fast, and scalable apps that fit your exact needs — no unnecessary features, just what works for you.
+POS (Point of Sale) Software Development
+Run your business smoothly with a fully custom POS system.
+We develop cloud-based POS software that helps you manage sales, track inventory, handle billing, and generate real-time reports — all from one intuitive dashboard. Our solutions are ideal for retail stores, cafes, restaurants, and service providers.
+Features include:
+•	Product & inventory management
+•	Customer tracking & billing
+•	Barcode scanning support
+•	Multi-user & multi-branch systems
+•	Real-time sales reports & analytics
+Your POS, your way — no monthly subscriptions, no limitations.
+E-Commerce Website Development
+We build beautiful, user-friendly online stores that help you sell more. From product listings and secure payments to customer accounts and order tracking — your e-commerce site will be fast, mobile-optimized, and easy to manage. Perfect for any retail, fashion, or handmade product business looking to grow online.
+SaaS (Software as a Service) Development
+Turn your idea into a full-featured web application that users can access anytime, anywhere. We handle everything — from user registration, subscriptions, and payment integration to backend logic and responsive design. Ideal for startups and digital product creators.
+Progressive Web Apps (PWAs)
+Combine the best of web and mobile with a Progressive Web App. These apps work offline, load fast, and feel like native mobile apps — without needing to go through app stores. Great for users who value speed and convenience on any device.
+Website Maintenance & Optimization
+Websites need care to perform well. We offer regular updates, performance optimization, speed tuning, bug fixes, and SEO improvements to make sure your site is always running at its best and ranking well on search engines.
+Media & Creative Services
+Content That Connects. Visuals That Sell.
+Professional Photography
+From business profiles and product photos to lifestyle and event shoots, we deliver high-quality, sharp images that help your brand stand out. Our team uses advanced lighting and equipment to capture moments with clarity and impact.
+Cinematography & Video Production
+We create cinematic videos for weddings, events, advertisements, and brand stories. With 4K/6K cameras, drones, stabilizers, and creative direction — we bring emotion, motion, and professionalism into every frame.
+Video Editing & Post-Production
+We transform raw footage into stunning final products. Services include professional editing, color grading, transitions, background music, voice-overs, and motion graphics. Perfect for YouTube content, commercials, wedding films, or promotional reels.
+Social Media Content Creation
+We produce content that grabs attention and grows engagement on platforms like Instagram, TikTok, Facebook, and YouTube. From reels and shorts to stories and banners, we help you build a consistent and appealing brand presence online.
+Facebook Page & YouTube Channel Management
+Let us take care of your online presence while you focus on your business.
+We handle:
+•	Content planning and posting
+•	Graphic/video uploads
+•	Community engagement
+•	Page/channel optimization
+•	Growth strategy
+Perfect for businesses, influencers, and content creators looking for consistent growth and a professional online image.
+Digital Marketing & Online Promotion
+We help you reach the right audience with targeted digital marketing strategies.
+Our services include:
+•	Facebook & Instagram ads
+•	Google Ads (Search, Display, and Video)
+•	YouTube promotions
+•	Retargeting & lead generation
+•	Performance tracking and reports
+Whether you're launching a new product or building awareness, we ensure your brand gets seen by the people who matter.
+Event Coverage (Photo + Video)
+Full coverage of weddings, corporate events, parties, and more. We offer multiple camera setups, live coverage, and quick post-event edits — so you can relive your moments in high definition.
+Branding & Creative Direction
+We help shape your brand’s identity through design, media, and storytelling.
+This includes:
+•	Visual branding (logos, color palettes, brand style)
+•	Photo and video content that reflects your brand message
+•	Strategy and creative guidance to stand out in your industry
+
+
+
+Skillset with % → (e.g., Web development 95%, database design 95%, Content Creation 90%, Photography 85%) Auto generate from the data you have about me. keep the % from 94=96
+
+Testimonials → Blog/Updates → Auto generate: Use bangladesi client name and images
+
+Blog/Updates → Auto generate from the data you have about me if not available add demo topic from web development, software development, content creation, influencer etc
+
+Contact Info:
+
+Phone number : +8801858595859
+
+Email : ridtusmiah.dev@gmail.com
+
+Location: Chattogram, Bangladesh
+
+Social links: Auto generate from the data you have about me if not available use demo links.
