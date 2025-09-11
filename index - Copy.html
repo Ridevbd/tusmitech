@@ -1,771 +1,748 @@
-
 <!doctype html>
 <html lang="en">
-
-
-<!-- Managed By TusmiTech -->
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Author & Ownership -->
-  <meta name="author" content="Ridwan Tusmiah - TusmiTech">
-
-  <!-- Branding -->
-  <link rel="shortcut icon" href="favicon.png">
-
-  <!-- SEO Meta -->
-  <meta name="description" content="TusmiTech — A creative technology company founded by Ridwan Tusmiah. We specialize in web development, SaaS solutions, content creation, branding, photography, and digital marketing. Based in Bangladesh but works world wide through internet, we deliver innovative and scalable digital solutions." />
-  <meta name="keywords" content="TusmiTech, Ridwan Tusmiah, Web Development, SaaS, Content Creation, Branding, Photography, Digital Marketing, Laravel, Vue.js, Bangladesh" />
-
-  <!-- Open Graph (for social media sharing) -->
-  <meta property="og:title" content="TusmiTech - Creative Digital Solutions">
-  <meta property="og:description" content="Explore TusmiTech’s services in web development, SaaS, branding, photography, and digital marketing.">
-  <meta property="og:image" content="https://yourdomain.com/images/preview.jpg">
-  <meta property="og:url" content="https://tusmitech.com">
-  <meta property="og:type" content="website">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="TusmiTech - Creative Digital Solutions">
-  <meta name="twitter:description" content="Innovative, scalable, and creative services in tech and media.">
-  <meta name="twitter:image" content="https://yourdomain.com/images/preview.jpg">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com/">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=PT+Mono&amp;display=swap" rel="stylesheet">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Title -->
-  <title>TusmiTech | Ridwan Tusmiah - Web Developer & Creative Solutions</title>
-</head>
-
-
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
-
-  <div class="lines-wrap">
-    <div class="lines-inner">
-      <div class="lines"></div>
-    </div>
-  </div>
-  <!-- END lines -->
-
-  <div class="site-mobile-menu site-navbar-target">
-    <div class="site-mobile-menu-header">
-      <div class="site-mobile-menu-close">
-        <span class="icofont-close js-menu-toggle"></span>
+   <!-- Managed By TusmiTech -->
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Author & Ownership -->
+      <meta name="author" content="Ridwan Tusmiah - TusmiTech">
+      <!-- Branding -->
+      <link rel="shortcut icon" href="favicon.png">
+      <!-- SEO Meta -->
+      <meta name="description"
+         content="TusmiTech — A creative technology company founded by Ridwan Tusmiah. We specialize in web development, SaaS solutions, content creation, branding, photography, and digital marketing. Based in Bangladesh but works world wide through internet, we deliver innovative and scalable digital solutions." />
+      <meta name="keywords"
+         content="TusmiTech, Ridwan Tusmiah, Web Development, SaaS, Content Creation, Branding, Photography, Digital Marketing, Laravel, Vue.js, Bangladesh" />
+      <!-- Open Graph (for social media sharing) -->
+      <meta property="og:title" content="TusmiTech - Creative Digital Solutions">
+      <meta property="og:description"
+         content="Explore TusmiTech’s services in web development, SaaS, branding, photography, and digital marketing.">
+      <meta property="og:image" content="https://yourdomain.com/images/preview.jpg">
+      <meta property="og:url" content="https://tusmitech.com">
+      <meta property="og:type" content="website">
+      <!-- Twitter Card -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="TusmiTech - Creative Digital Solutions">
+      <meta name="twitter:description" content="Innovative, scalable, and creative services in tech and media.">
+      <meta name="twitter:image" content="https://yourdomain.com/images/preview.jpg">
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com/">
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=PT+Mono&amp;display=swap"
+         rel="stylesheet">
+      <!-- Styles -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+      <link rel="stylesheet" href="fonts/icomoon/style.css">
+      <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+      <link rel="stylesheet" href="css/aos.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Title -->
+      <title>TusmiTech | Ridwan Tusmiah - Web Developer & Creative Solutions</title>
+   </head>
+   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
+      <div class="lines-wrap">
+         <div class="lines-inner">
+            <div class="lines"></div>
+         </div>
       </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
-  </div>
-  <!-- Navbar Start -->
-  <nav class="site-nav dark mb-5 site-navbar-target">
-    <div class="container">
-      <div class="site-navigation">
-        <a href="index-2.html" class="logo m-0">Minimal<span class="text-primary">.</span></a>
-
-        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
-          <li><a href="#home-section" class="nav-link active">Home</a></li>
-          <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-          <li class="has-children">
-            <a href="#about-section" class="nav-link">About</a>
-            <ul class="dropdown">
-              <li><a href="elements.html" class="nav-link">Elements</a></li>
-              <li class="has-children">
-                <a href="#">Menu Two</a>
-                <ul class="dropdown">
-                  <li><a href="#" class="nav-link">Sub Menu One</a></li>
-                  <li><a href="#" class="nav-link">Sub Menu Two</a></li>
-                  <li><a href="#" class="nav-link">Sub Menu Three</a></li>
-                </ul>
-              </li>
-              <li><a href="#" class="nav-link">Menu Three</a></li>
-            </ul>
-          </li>
-          <li><a href="#services-section" class="nav-link">Services</a></li>
-
-          <li><a href="#contact-section" class="nav-link">Contact us</a></li>
-        </ul>
-
-        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
-          <span></span>
-        </a>
-
+      <!-- END lines -->
+      <div class="site-mobile-menu site-navbar-target">
+         <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+               <span class="icofont-close js-menu-toggle"></span>
+            </div>
+         </div>
+         <div class="site-mobile-menu-body"></div>
       </div>
-    </div>
-  </nav>
-  <!-- Navbar End -->
-
-  <!-- //Hero Section -->
-  <div class="untree_co-section pb-0" id="home-section">
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <div class="col-md-7">
-          <h1 class="heading gsap-reveal-hero mb-3"><strong>TusmiTech<span class="text-primary"></h1>
-          <h2 class="subheading gsap-reveal-hero mb-4">
-           Building smart, scalable software and creating compelling digital content. At TusmiTech, we combine technology with creativity to help businesses grow, connect, and stand out in the digital age.
-          </h2>
-          <p class="gsap-reveal-hero"><a href="#contact-section"  class="btn btn-outline-black">Contact Us</a></p>    
-        </div>
+      <!-- Navbar Start -->
+      <nav class="site-nav dark mb-5 site-navbar-target">
+         <div class="container">
+            <div class="site-navigation">
+               <a href="index.html" class="logo m-0">TusmiTech<span class="text-primary">.</span></a>
+               <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+                  <li><a href="#home-section" class="nav-link active">Home</a></li>
+                  <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+                  <li class="has-children">
+                     <a href="#about-section" class="nav-link">About</a>
+                     <ul class="dropdown">
+                        <li><a href="elements.html" class="nav-link">Elements</a></li>
+                        <li class="has-children">
+                           <a href="#">Menu Two</a>
+                           <ul class="dropdown">
+                              <li><a href="#" class="nav-link">Sub Menu One</a></li>
+                              <li><a href="#" class="nav-link">Sub Menu Two</a></li>
+                              <li><a href="#" class="nav-link">Sub Menu Three</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="#" class="nav-link">Menu Three</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#services-section" class="nav-link">Services</a></li>
+                  <li><a href="#contact-section" class="nav-link">Contact us</a></li>
+               </ul>
+               <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block"
+                  data-toggle="collapse" data-target="#main-navbar">
+               <span></span>
+               </a>
+            </div>
+         </div>
+      </nav>
+      <!-- Navbar End -->
+      <!-- Hero Section -->
+      <div class="untree_co-section pb-0" id="home-section">
+         <div class="container">
+            <div class="row justify-content-center text-center">
+               <div class="col-md-7">
+                  <h1 class="heading gsap-reveal-hero mb-3"><strong>TusmiTech<span class="text-primary"></h1>
+                  <h2 class="subheading gsap-reveal-hero mb-4">
+                     Innovative Digital Solutions for better future....
+                  </h2>
+                  <p class="gsap-reveal-hero"><a href="#contact-section" class="btn btn-outline-black">Contact Us</a></p>
+               </div>
+            </div>
+         </div>
       </div>
-      
-    </div>
-  </div>
-<!-- //Hero Section End -->
-<!-- Portfolio-Section Starts -->
-  <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
-    <div class="container">
-
-
-      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
-      <div id="portfolio-single-holder"></div>
-
-      <div class="portfolio-wrapper">
-
-        <div id="posts" class="row">
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Bangladesh Military Museum Website</h3>
-                  <p>web, cms</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="Military museum project" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Artillery Center CMS</h3>
-                  <p>backend, laravel</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="CMS project" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>PhotoGalleryPage (Vue.js)</h3>
-                  <p>frontend, vue</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="Photo gallery project" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-4.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="4">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Retail POS — Custom Solution</h3>
-                  <p>pos, SaaS</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="POS system" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-5.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="5">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>E-Commerce for Local Crafts</h3>
-                  <p>e-commerce, shop</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="E-commerce project" />
-            </a>
-          </div>
-
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-6.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="6">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>TusmiTech PWA Demo</h3>
-                  <p>pwa, mobile</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="PWA project" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-7.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="7">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Branding & Social Strategy — Small Business</h3>
-                  <p>branding, marketing</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="Branding project" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-8.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="8">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Event Cinematography — Corporate Launch</h3>
-                  <p>video, cinematography</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="Cinematography project" />
-            </a>
-          </div>
-
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>UX Improvements — Dashboard</h3>
-                  <p>ui/ux, web</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="Dashboard UX" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Content Series — YouTube & Social</h3>
-                  <p>content, growth</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="Content series" />
-            </a>
-          </div>
-
-          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
-            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
-              <div class="overlay">
-                <span class="wrap-icon icon-link2"></span>
-                <div class="portfolio-item-content">
-                  <h3>Inventory & Analytics Dashboard</h3>
-                  <p>inventory, analytics</p>
-                </div>
-              </div>
-              <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=60" class="lazyload  img-fluid" alt="Analytics dashboard" />
-            </a>
-          </div>
-
-        </div>
-       
+      <!-- Hero Section End -->
+      <!-- Portfolio-Section Starts -->
+      <div class="untree_co-section untree_co-section-4 pb-0" id="portfolio-section">
+           <div class="row mb-5">
+            <div class="col-lg-8 text-center mx-auto">
+               <h2 class="section-heading mb-3"><strong>Projects</strong></h2>
+               <p class="text-muted">
+                  We built awasome projects for our clients. Here are some of them.
+               </p>
+            </div>
+         </div>
+        <div class="container">
+            <div class="relative">
+               <div class="loader-portfolio-wrap">
+                  <div class="loader-portfolio"></div>
+               </div>
+            </div>
+            
+            <div id="portfolio-single-holder"></div>
+            <div class="portfolio-wrapper">
+               <div id="posts" class="row">
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="1">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>Artillery Museum App</h3>
+                              <p>web-app, cms</p>
+                           </div>
+                        </div>
+                        <img src="images/portfolio/artillery=museum-app.png"
+                           class="lazyload  img-fluid" alt="Military museum project" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="3">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>PhotoGalleryPage (Vue.js)</h3>
+                              <p>frontend, vue</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="Photo gallery project" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-4.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="4">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>Retail POS — Custom Solution</h3>
+                              <p>pos, SaaS</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="POS system" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-5.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="5">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>E-Commerce for Local Crafts</h3>
+                              <p>e-commerce, shop</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="E-commerce project" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-6.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="6">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>TusmiTech PWA Demo</h3>
+                              <p>pwa, mobile</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="PWA project" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-7.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="7">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>Branding & Social Strategy — Small Business</h3>
+                              <p>branding, marketing</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="Branding project" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-8.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="8">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>Event Cinematography — Corporate Launch</h3>
+                              <p>video, cinematography</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="Cinematography project" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="1">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>UX Improvements — Dashboard</h3>
+                              <p>ui/ux, web</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="Dashboard UX" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="2">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>Content Series — YouTube & Social</h3>
+                              <p>content, growth</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="Content series" />
+                     </a>
+                  </div>
+                  <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                     <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                        data-id="3">
+                        <div class="overlay">
+                           <span class="wrap-icon icon-link2"></span>
+                           <div class="portfolio-item-content">
+                              <h3>Inventory & Analytics Dashboard</h3>
+                              <p>inventory, analytics</p>
+                           </div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=60"
+                           class="lazyload  img-fluid" alt="Analytics dashboard" />
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <!-- </div>
+               </div> -->
+         </div>
       </div>
-
-
-        <!-- </div>
-        </div> -->
+      <!-- Portfolio-Section Ends -->
+      <!-- About Section Starts -->
+      <div class="untree_co-section pb-0" id="about-section">
+         <div class="container">
+            <div class="row justify-content-center mb-3">
+               <div class="col-lg-7 mx-auto text-center author-wrap">
+                  <img src="images/pp.png" style="width: 200px;" alt="Ridwan Tusmiah" class="img-fluid rounded-circle mb-3">
+                  <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Ridwan Tusmiah</h3>
+                  <p class="gsap-reveal-hero">Software Engineer &amp; Content Creator — Founder, TusmiTech</p>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-7">
+                  <p class="gsap-reveal-hero">
+                     I’m Ridwan Tusmiah, founder of TusmiTech — a hybrid creative-tech studio based in Chattogram, Bangladesh. I
+                     build production-ready web applications using Laravel on the backend and Vue.js on the frontend, and I
+                     create cinematic visual content that helps brands tell engaging stories. My work sits at the intersection of
+                     clean code, scalable systems, and purposeful storytelling.
+                  </p>
+                  <p class="gsap-reveal-hero">
+                     Over the years I have delivered projects ranging from custom POS systems and e-commerce platforms to
+                     CMS-driven museum websites and cinematic event films. I focus on pragmatic engineering: secure,
+                     maintainable, and optimized solutions that solve real business problems while keeping user experience front
+                     and center.
+                  </p>
+                  <p class="gsap-reveal-hero">
+                     At TusmiTech I also offer media and growth services — professional photography, video production, content
+                     planning, and social channel management — so clients can launch, scale, and sustain a strong online presence
+                     without juggling multiple vendors.
+                  </p>
+                  <p class="gsap-reveal-hero text-center"><a href="#contact-section" class="btn btn-outline-black">Work with
+                     TusmiTech</a>
+                  </p>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  <!-- Portfolio-Section Ends -->
-
-  <!-- About Section Starts -->
- <div class="untree_co-section pb-0" id="about-section">
-      <div class="container">
-        <div class="row justify-content-center mb-3">
-          <div class="col-lg-7 mx-auto text-center author-wrap">
-            <img src="images/person_1.jpg" alt="Ridwan Tusmiah" class="img-fluid rounded-circle mb-3">
-            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Ridwan Tusmiah</h3>
-            <p class="gsap-reveal-hero">Software Engineer &amp; Content Creator — Founder, TusmiTech</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-7">
-
-
-            <p class="gsap-reveal-hero">
-              I’m Ridwan Tusmiah, founder of TusmiTech — a hybrid creative-tech studio based in Chattogram, Bangladesh. I build production-ready web applications using Laravel on the backend and Vue.js on the frontend, and I create cinematic visual content that helps brands tell engaging stories. My work sits at the intersection of clean code, scalable systems, and purposeful storytelling.
-            </p>
-
-            <p class="gsap-reveal-hero">
-              Over the years I have delivered projects ranging from custom POS systems and e-commerce platforms to CMS-driven museum websites and cinematic event films. I focus on pragmatic engineering: secure, maintainable, and optimized solutions that solve real business problems while keeping user experience front and center.
-            </p>
-
-            <p class="gsap-reveal-hero">
-              At TusmiTech I also offer media and growth services — professional photography, video production, content planning, and social channel management — so clients can launch, scale, and sustain a strong online presence without juggling multiple vendors.
-            </p>
-
-           
-
-            <p class="gsap-reveal-hero text-center"><a href="#contact-section" class="btn btn-outline-black">Work with TusmiTech</a></p>    
-          </div>
-        </div>
+      <!-- About Section Ends -->
+      <!-- Services Section -->
+      <div class="container py-5" id="services-section">
+         <div class="row mb-5">
+            <div class="col-lg-8 text-center mx-auto">
+               <h2 class="section-heading mb-3"><strong>Our Services</strong></h2>
+               <p class="text-muted">
+                  We provide smart, scalable solutions across web development, POS software, e-commerce, SaaS, media production,
+                  digital marketing, and branding.
+               </p>
+            </div>
+         </div>
+         <div class="row">
+            <!-- Web Development -->
+            <div class="col-md-4 mb-4">
+               <div class="service-card">
+                  <img src="images/service-web.png" alt="Web Development">
+                  <h5>Web Development</h5>
+                  <p>Custom web apps with Laravel & Vue.js. Fast, secure, and scalable.</p>
+                  <button class="btn btn-link p-0 mt-2" data-toggle="collapse" data-target="#webDevDetails"
+                     aria-expanded="false">Read more</button>
+                  <div class="collapse mt-2" id="webDevDetails">
+                     <ul>
+                        <li>Management dashboards</li>
+                        <li>Online booking & scheduling systems</li>
+                        <li>CRM & custom business solutions</li>
+                        <li>Optimized for speed & security</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- POS Software -->
+            <div class="col-md-4 mb-4">
+               <div class="service-card">
+                  <img src="images/service-pos.png" alt="POS Software">
+                  <h5>POS Software</h5>
+                  <p>Cloud-based POS systems for sales & inventory management.</p>
+                  <button class="btn btn-link p-0 mt-2" data-toggle="collapse" data-target="#posDetails"
+                     aria-expanded="false">Read more</button>
+                  <div class="collapse mt-2" id="posDetails">
+                     <ul>
+                        <li>Product & inventory management</li>
+                        <li>Customer tracking & billing</li>
+                        <li>Barcode scanning support</li>
+                        <li>Multi-user & multi-branch systems</li>
+                        <li>Real-time sales reports</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- E-Commerce Development -->
+            <div class="col-md-4 mb-4">
+               <div class="service-card">
+                  <img src="images/service-ecom.png" alt="E-Commerce">
+                  <h5>E-Commerce Development</h5>
+                  <p>Mobile-friendly online stores with secure payments.</p>
+                  <button class="btn btn-link p-0 mt-2" data-toggle="collapse" data-target="#ecomDetails"
+                     aria-expanded="false">Read more</button>
+                  <div class="collapse mt-2" id="ecomDetails">
+                     <ul>
+                        <li>Product listings & secure payments</li>
+                        <li>Customer accounts & order tracking</li>
+                        <li>Mobile-optimized & easy to manage</li>
+                        <li>Retail, fashion & handmade store support</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- SaaS Development -->
+            <div class="col-md-4 mb-4">
+               <div class="service-card">
+                  <img src="images/service-saas.png" alt="SaaS Development">
+                  <h5>SaaS Development</h5>
+                  <p>Custom SaaS platforms to scale your business.</p>
+                  <button class="btn btn-link p-0 mt-2" data-toggle="collapse" data-target="#saasDetails"
+                     aria-expanded="false">Read more</button>
+                  <div class="collapse mt-2" id="saasDetails">
+                     <ul>
+                        <li>Multi-tenant platforms</li>
+                        <li>Subscription & billing integration</li>
+                        <li>Analytics dashboards</li>
+                        <li>Cloud-based & secure architecture</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Photography & Videography -->
+            <div class="col-md-4 mb-4">
+               <div class="service-card">
+                  <img src="images/service-media.png" alt="Media Production">
+                  <h5>Photography & Videography</h5>
+                  <p>Cinematic photography, event coverage, and video editing.</p>
+                  <button class="btn btn-link p-0 mt-2" data-toggle="collapse" data-target="#mediaDetails"
+                     aria-expanded="false">Read more</button>
+                  <div class="collapse mt-2" id="mediaDetails">
+                     <ul>
+                        <li>Event coverage</li>
+                        <li>Corporate & product photography</li>
+                        <li>Motivational & historical documentaries</li>
+                        <li>Professional video editing & post-production</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Digital Marketing -->
+            <div class="col-md-4 mb-4">
+               <div class="service-card">
+                  <img src="images/service-digital.png" alt="Digital Marketing">
+                  <h5>Digital Marketing</h5>
+                  <p>Effective campaigns to grow your brand online.</p>
+                  <button class="btn btn-link p-0 mt-2" data-toggle="collapse" data-target="#digitalDetails"
+                     aria-expanded="false">Read more</button>
+                  <div class="collapse mt-2" id="digitalDetails">
+                     <ul>
+                        <li>Facebook, Instagram, Google Ads</li>
+                        <li>YouTube content promotion</li>
+                        <li>SEO & website optimization</li>
+                        <li>Social media management & analytics</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- Branding & Creative Direction -->
+            <div class="col-md-4 mb-4">
+               <div class="service-card">
+                  <img src="images/service-branding.png" alt="Branding">
+                  <h5>Branding & Creative Direction</h5>
+                  <p>Strong brand identities and creative visual strategies.</p>
+                  <button class="btn btn-link p-0 mt-2" data-toggle="collapse" data-target="#brandingDetails"
+                     aria-expanded="false">Read more</button>
+                  <div class="collapse mt-2" id="brandingDetails">
+                     <ul>
+                        <li>Logo & visual identity design</li>
+                        <li>Creative direction & content strategy</li>
+                        <li>Social media branding</li>
+                        <li>Marketing & promotional material design</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-<!-- About Section Ends -->
-
-    <div class="untree_co-section pb-0" id="services-section">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Services</strong></h2>
-            <p class="gsap-reveal-hero">The Big Oxmox advised her not to do so, because there were thousands of bad Commas.</p>
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
+      <!-- Services Section Ends -->
+      <!-- Skillset Section -->
+      <div class="untree_co-section pb-0">
+         <div class="container">
+            <div class="row mb-4">
+               <div class="col-lg-7 text-center mx-auto">
+                  <h2 class="section-heading gsap-reveal-hero mb-0"><strong>My Skillset</strong></h2>
+                  <p class="gsap-reveal-hero">The Big Oxmox advised her not to do so, because there were thousands of bad
+                     Commas.
+                  </p>
+                  <div class="wave gsap-reveal-hero">
+                     <svg>
+                        <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+                     </svg>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-7.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Marketing</h3>
-              <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <div class="row">
+               <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="0">
+                  <div class="progressbar" data-animate="false">
+                     <div class="circle" data-percent="98">
+                        <div class="number"></div>
+                        <p class="caption">WordPress</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
+                  <div class="progressbar" data-animate="false">
+                     <div class="circle" data-percent="95">
+                        <div class="number"></div>
+                        <p class="caption">Web Design</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="200">
+                  <div class="progressbar" data-animate="false">
+                     <div class="circle" data-percent="89">
+                        <div class="number"></div>
+                        <p class="caption">Web/Mobile App</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+                  <div class="progressbar" data-animate="false">
+                     <div class="circle" data-percent="85">
+                        <div class="number"></div>
+                        <p class="caption">Photoshop</p>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-6.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Photography</h3>
-              <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-1.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Web Design</h3>
-              <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-          </div>
-
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-8.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">App Development</h3>
-              <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-4.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Search Ranking</h3>
-              <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-          </div>
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
-            <div class="service text-center">
-              <div class="gsap-reveal-hero mb-3">
-                <span class="icon-service"><img src="images/svg/service-icon-5.svg" alt="Image" class="img-fluid"></span>
-              </div>
-              <h3 class="gsap-reveal-hero">Branding</h3>
-              <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-          </div>
-
-        </div>
+         </div>
       </div>
-    </div>
-
-
-    <div class="untree_co-section pb-0">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>My Skillset</strong></h2>
-            <p class="gsap-reveal-hero">The Big Oxmox advised her not to do so, because there were thousands of bad Commas.</p>
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
+      <!-- Skillset Section End -->
+      <!-- Testimonials Section -->
+      <div class="untree_co-section testimonial-wrap">
+         <div class="container">
+            <div class="row mb-5">
+               <div class="col-lg-7 text-center mx-auto">
+                  <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Testimonials</strong></h2>
+                  <p class="gsap-reveal-hero">What clients say...</p>
+                  <div class="wave gsap-reveal-hero" >
+                     <svg>
+                        <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+                     </svg>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="0">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="98">
-                <div class="number"></div>
-                <p class="caption">WordPress</p>
-              </div>
+            <div data-aos="fade-left" data-aos-delay="200">
+               <div class="owl-carousel owl-3-slider">
+                  <div class="item">
+                     <div class="testimonial-v1">
+                        <img src="https://images.unsplash.com/photo-1545996124-1b63a1b1d8d9?auto=format&fit=crop&w=400&q=60" alt="Image" class="img-fluid">
+                        <div class="mb-4">
+                           <h3>Md. Hasan</h3>
+                           <span class="caption">Founder, Chattogram Crafts</span>
+                        </div>
+                        <blockquote>
+                           <p>“Ridwan rebuilt our e-commerce site and increased checkout conversions. The team delivered a clean admin panel and quick training — outstanding work.”</p>
+                        </blockquote>
+                     </div>
+                  </div>
+                  <!-- END .item -->
+                  <div class="item">
+                     <div class="testimonial-v1">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=60" alt="Image" class="img-fluid">
+                        <div class="mb-4">
+                           <h3>Fatima Rahman</h3>
+                           <span class="caption">Marketing Head, Local Retail</span>
+                        </div>
+                        <blockquote>
+                           <p>“TusmiTech's POS system transformed our store operations. Inventory is easier to manage and reporting saves us hours every week.”</p>
+                        </blockquote>
+                     </div>
+                  </div>
+                  <!-- END .item -->
+                  <div class="item">
+                     <div class="testimonial-v1">
+                        <img src="https://images.unsplash.com/photo-1531123414780-f63f3c0f8c36?auto=format&fit=crop&w=400&q=60" alt="Image" class="img-fluid">
+                        <div class="mb-4">
+                           <h3>Kamrul Islam</h3>
+                           <span class="caption">Director, Museum Project</span>
+                        </div>
+                        <blockquote>
+                           <p>“Their attention to detail and ability to preserve our historical script in the documentary was exceptional — professional and respectful of the subject.”</p>
+                        </blockquote>
+                     </div>
+                  </div>
+                  <!-- END .item -->
+                  <div class="item">
+                     <div class="testimonial-v1">
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=60" alt="Image" class="img-fluid">
+                        <div class="mb-4">
+                           <h3>Salma Jahan</h3>
+                           <span class="caption">Owner, Cafe & Events</span>
+                        </div>
+                        <blockquote>
+                           <p>“From concept to execution, Ridwan handled our launch campaign and delivered beautiful photography and an engaging promo video.”</p>
+                        </blockquote>
+                     </div>
+                  </div>
+                  <!-- END .item -->
+               </div>
             </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="95">
-                <div class="number"></div>
-                <p class="caption">Web Design</p>
-              </div>
+         </div>
+      </div> 
+      <!--testimonial Section End -->
+      <!-- Contact Section -->
+      <div class="untree_co-section" id="contact-section">
+         <div class="container">
+            <div class="row mb-5">
+               <div class="col-lg-7 text-center mx-auto">
+                  <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Contact</strong></h2>
+                  <p class="gsap-reveal-hero">Available for work. Get in touch</p>
+                  <div class="wave gsap-reveal-hero" >
+                     <svg>
+                        <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+                     </svg>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="89">
-                <div class="number"></div>
-                <p class="caption">Web/Mobile App</p>
-              </div>
+            <div class="row">
+               <div class="col-lg-6">
+                  <form action="#">
+                     <div class="row">
+                        <div class="col-lg-6 form-group">
+                           <input type="text" class="form-control" placeholder="Firstname">
+                        </div>
+                        <div class="col-lg-6 form-group">
+                           <input type="text" class="form-control" placeholder="Lastname">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-12 form-group">
+                           <input type="email" class="form-control" placeholder="Email address">
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-lg-12 form-group">
+                           <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Write your message..."></textarea>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12 form-group">
+                           <input type="submit" class="btn btn-black" value="Send Message">
+                        </div>
+                     </div>
+                  </form>
+                  <div class="mt-4">
+                     <p><strong>Phone:</strong> <a href="tel:+8801858595859">+8801858595859</a></p>
+                     <p><strong>Email:</strong> <a href="mailto:ridtusmiah.dev@gmail.com">ridtusmiah.dev@gmail.com</a></p>
+                     <p><strong>Location:</strong> Chattogram, Bangladesh</p>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div id="map" style="min-height:320px;">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.133472332771!2d91.8167896153607!3d22.35685288511903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8f2b3a3c5ad%3A0x8a6b8ab8b9e5a3ea!2sChattogram%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1694300000000"  frameborder="0" style="border:0;width:100%;height:100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="progressbar" data-animate="false">
-              <div class="circle" data-percent="85">
-                <div class="number"></div>
-                <p class="caption">Photoshop</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
+         </div>
       </div>
-    </div>
-
-    <div class="untree_co-section testimonial-wrap">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Testimonials</strong></h2>
-            <p class="gsap-reveal-hero">What clients say...</p>
-
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
+      <!-- Contact Section Ends -->
+      <!-- Footer Section -->
+      <div class="site-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3">
+                  <div class="widget">
+                     <h3>Home</h3>
+                     <ul class="list-unstyled float-left links">
+                        <li><a href="#">TusmiTech</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#portfolio-section">Projects</a></li>
+                        <li><a href="#services-section">Services</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                     </ul>
+                  </div>
+                  <!-- /.widget -->
+               </div>
+               <!-- /.col-lg-3 -->
+               <div class="col-lg-3">
+                  <div class="widget">
+                     <h3>Projects</h3>
+                     <ul class="list-unstyled float-left links">
+                        <li><a href="#">Web Apps</a></li>
+                        <li><a href="#">E-Commerce</a></li>
+                        <li><a href="#">POS</a></li>
+                        <li><a href="#">PWAs</a></li>
+                        <li><a href="#">Branding</a></li>
+                     </ul>
+                  </div>
+                  <!-- /.widget -->
+               </div>
+               <!-- /.col-lg-3 -->
+               <div class="col-lg-3">
+                  <div class="widget">
+                     <h3>Services</h3>
+                     <ul class="list-unstyled float-left links">
+                        <li><a href="#services-section">Web Development</a></li>
+                        <li><a href="#services-section">Media & Creative</a></li>
+                        <li><a href="#services-section">SaaS & PWAs</a></li>
+                        <li><a href="#services-section">Maintenance</a></li>
+                     </ul>
+                  </div>
+                  <!-- /.widget -->
+               </div>
+               <!-- /.col-lg-3 -->
+               <div class="col-lg-3">
+                  <div class="widget">
+                     <h3>Contact</h3>
+                     <address>Chattogram, Bangladesh</address>
+                     <ul class="list-unstyled links mb-4">
+                        <li><a href="tel:+8801858595859">+8801858595859</a></li>
+                        <li><a href="mailto:ridtusmiah.dev@gmail.com">ridtusmiah.dev@gmail.com</a></li>
+                        <li><a href="#">Available for remote & local projects</a></li>
+                     </ul>
+                     <h3>Connect</h3>
+                     <ul class="list-unstyled social">
+                        <li><a href="https://facebook.com/ridtusmiah" target="_blank"><span class="icon-facebook"></span></a></li>
+                        <li><a href="https://instagram.com/ridtusmiah" target="_blank"><span class="icon-instagram"></span></a></li>
+                        <li><a href="https://linkedin.com/in/ridtusmiah" target="_blank"><span class="icon-linkedin"></span></a></li>
+                        <li><a href="https://youtube.com/@ridtusmiah" target="_blank"><span class="icon-youtube"></span></a></li>
+                     </ul>
+                  </div>
+                  <!-- /.widget -->
+               </div>
+               <!-- /.col-lg-3 -->
             </div>
-          </div>
-        </div>
-
-
-        <div data-aos="fade-left" data-aos-delay="200">
-
-
-
-          <div class="owl-carousel owl-3-slider">
-            <div class="item">
-              <div class="testimonial-v1">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                <div class="mb-4">
-                  <h3>James Smith</h3>
-                  <span class="caption">CEO &amp; Co-Founder</span>
-                </div>
-                <blockquote>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                </blockquote>
-              </div>
+            <!-- /.row -->
+            <div class="row mt-5">
+               <div class="col-12 text-center">
+                  <!-- 
+                     **==========
+                     NOTE: 
+                     Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+                     
+                     **==========
+                     -->
+                  <p class="mb-0">
+                     Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co/">Untree.co</a>  Distributed By <a href="https://themewagon.com/">ThemeWagon</a> <!-- License information: https://untree.co/license/ -->
+                  </p>
+               </div>
             </div>
-            <!-- END .item -->
-
-            <div class="item">
-              <div class="testimonial-v1">
-                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-                <div class="mb-4">
-                  <h3>Jenny Wilson</h3>
-                  <span class="caption">CEO &amp; Co-Founder</span>
-                </div>
-                <blockquote>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!-- END .item -->
-
-            <div class="item">
-              <div class="testimonial-v1">
-                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
-                <div class="mb-4">
-                  <h3>Dan Anderson</h3>
-                  <span class="caption">CEO &amp; Co-Founder</span>
-                </div>
-                <blockquote>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!-- END .item -->
-
-            <div class="item">
-              <div class="testimonial-v1">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                <div class="mb-4">
-                  <h3>James Smith</h3>
-                  <span class="caption">CEO &amp; Co-Founder</span>
-                </div>
-                <blockquote>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!-- END .item -->
-          </div>
-        </div>
+         </div>
+         <!-- /.container -->
       </div>
-    </div>
-
-    <div class="untree_co-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Blog Posts</strong></h2>
-            <p class="gsap-reveal-hero">News &amp; Updates</p>
-
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff" stroke-width="2"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_1.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">Separated they live in</a></h3>
-              <div class="post-meta">
-                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_2.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">Separated they live in</a></h3>
-              <div class="post-meta">
-                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_3.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">Separated they live in</a></h3>
-              <div class="post-meta">
-                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="post-entry">
-              <a href="#" class="thumb"><img src="images/gal_4.jpg" alt="image" class="img-fluid"></a>
-              <h3><a href="#">Separated they live in</a></h3>
-              <div class="post-meta">
-                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- Footer Secton Ends-->
+      <div id="overlayer"></div>
+      <div class="loader">
+         <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+         </div>
       </div>
-    </div>
-
-
-    <div class="untree_co-section" id="contact-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Contact</strong></h2>
-            <p class="gsap-reveal-hero">Available for work. Get in touch</p>
-
-            <div class="wave gsap-reveal-hero" >
-              <svg>
-                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6">
-            <form action="#">
-              <div class="row">
-                <div class="col-lg-6 form-group">
-                  <input type="text" class="form-control" placeholder="Firstname">
-                </div>
-                <div class="col-lg-6 form-group">
-                  <input type="text" class="form-control" placeholder="Lastname">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 form-group">
-                  <input type="email" class="form-control" placeholder="Email address">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 form-group">
-                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Write your message..."></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 form-group">
-                  <input type="submit" class="btn btn-black" value="Send Message">
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-lg-6">
-            <div id="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320.12856481718734!2d-73.97263090448001!3d40.78263296621774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588ff21eaaab%3A0xd0128d5d89a30429!2sMargarita%20Anthoine!5e0!3m2!1sen!2sph!4v1597149027268!5m2!1sen!2sph"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-footer">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Home</h3>
-              <ul class="list-unstyled float-left links">
-                <li><a href="#">Untree.co</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-              </ul>
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
-
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Projects</h3>
-              <ul class="list-unstyled float-left links">
-                <li><a href="#">HTML5</a></li>
-                <li><a href="#">CSS3</a></li>
-                <li><a href="#">Untree.co</a></li>
-                <li><a href="#">Free Templates</a></li>
-                <li><a href="#">WordPress Themes</a></li>
-              </ul>
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
-
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Services</h3>
-              <ul class="list-unstyled float-left links">
-                <li><a href="#">Untree.co</a></li>
-                <li><a href="#">jQuery</a></li>
-                <li><a href="#">Bootstrap</a></li>
-                <li><a href="#">Freebies</a></li>
-              </ul>
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
-
-
-          <div class="col-lg-3">
-            <div class="widget">
-              <h3>Contact</h3>
-              <address>43 Raymouth Rd. Baltemoer, London 3910</address>
-              <ul class="list-unstyled links mb-4">
-                <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-                <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-                <li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
-              </ul>
-
-              <h3>Connect</h3>
-              <ul class="list-unstyled social">
-                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                <li><a href="#"><span class="icon-dribbble"></span></a></li>
-              </ul>
-
-            </div> <!-- /.widget -->
-          </div> <!-- /.col-lg-3 -->
-
-        </div> <!-- /.row -->
-
-
-
-
-
-        <div class="row mt-5">
-          <div class="col-12 text-center">
-            <!-- 
-              **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
-
-              **==========
-            -->
-            <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co/">Untree.co</a>  Distributed By <a href="https://themewagon.com/">ThemeWagon</a> <!-- License information: https://untree.co/license/ -->
-            </p>
-          </div>
-        </div>
-      </div> <!-- /.container -->
-    </div> <!-- /.site-footer -->
-
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-    </div>
-
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/wave-animate.js"></script>
-    <script src="js/circle-progress.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/scrollmagic.animation.gsap.min.js"></script>
-
-
-    <script src="js/custom.js"></script>
-    
-  </body>
-
-  
-<!-- Managed By TusmiTech -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.animateNumber.min.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.fancybox.min.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/wave-animate.js"></script>
+      <script src="js/circle-progress.js"></script>
+      <script src="js/imagesloaded.pkgd.js"></script>
+      <script src="js/isotope.pkgd.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/TweenMax.min.js"></script>
+      <script src="js/ScrollMagic.min.js"></script>
+      <script src="js/scrollmagic.animation.gsap.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+   <!-- Managed By TusmiTech -->
 </html>
